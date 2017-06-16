@@ -14,7 +14,7 @@ public class TetrahedronAction {
         Point edgeBC = coordinateEdge.edge(pointB, pointC);
         Point edgeAC = coordinateEdge.edge(pointA, pointC);
 
-gi
+
 
     }
 }
