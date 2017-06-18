@@ -8,7 +8,7 @@ import java.util.Observer;
  */
 public class Tetrahedron {
 
-    private static final Logger LOGGER = logManager.getLogger();
+    //private static final Logger LOGGER = logManager.getLogger();
 
     //private List<Observer>
 
@@ -16,6 +16,13 @@ public class Tetrahedron {
     private Point pointB;
     private Point pointC;
     private Point pointD;
+
+    public Tetrahedron(Point pointA, Point pointB, Point pointC, Point pointD){
+        this.pointA = pointA;
+        this.pointB = pointB;
+        this.pointC = pointC;
+        this.pointD = pointD;
+    }
 
     public Point getPointA() {
         return pointA;
