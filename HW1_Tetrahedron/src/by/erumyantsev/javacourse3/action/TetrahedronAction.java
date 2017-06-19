@@ -45,12 +45,12 @@ public class TetrahedronAction {
         Point lengthEdgeAD = coordinateEdge.edge(tetrahedron.getPointA(), tetrahedron.getPointD());
 
         float volume =
-                lengthEdgeAB.getX()*lengthEdgeAC.getY()*lengthEdgeAD.getZ() +
+                (lengthEdgeAB.getX()*lengthEdgeAC.getY()*lengthEdgeAD.getZ() +
                 lengthEdgeAB.getY()*lengthEdgeAC.getX()*lengthEdgeAD.getZ() +
                 lengthEdgeAB.getZ()*lengthEdgeAC.getX()*lengthEdgeAD.getY() -
                 lengthEdgeAB.getZ()*lengthEdgeAC.getY()*lengthEdgeAD.getX() -
                 lengthEdgeAB.getY()*lengthEdgeAC.getZ()*lengthEdgeAD.getX() -
-                lengthEdgeAB.getX()*lengthEdgeAC.getZ()*lengthEdgeAD.getY();
+                lengthEdgeAB.getX()*lengthEdgeAC.getZ()*lengthEdgeAD.getY())/6;
 
         return volume;
     }
