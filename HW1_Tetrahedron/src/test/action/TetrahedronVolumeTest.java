@@ -9,12 +9,12 @@ import org.junit.Test;
 /**
  * Created by Yauheni_Rumiantsau on 6/18/2017.
  */
-public class TetrahedronActionTest {
+public class TetrahedronVolumeTest {
 
     @Test
     public void tetrahedronVolumeCheck(){
 
-        float expectedVolume = (float) 859.539449;
+        float expectedVolume = (float) 143.2565748;
 
         Point pointA = new Point((float) 5.02, (float) 10.13, (float) 5.08);
         Point pointB = new Point((float) 0.04, (float) 0.09, (float) 0.01);
@@ -24,7 +24,7 @@ public class TetrahedronActionTest {
         Tetrahedron tetrahedronActual = new Tetrahedron(pointA, pointB, pointC, pointD);
         TetrahedronAction actualVolume = new TetrahedronAction();
 
-        Assert.assertEquals(expectedVolume, actualVolume.volumeTetrahedron(tetrahedronActual), 0.000001);
+        Assert.assertEquals(expectedVolume, actualVolume.volumeTetrahedron(tetrahedronActual), 0.0000001);
 
     }
 }
