@@ -5,7 +5,7 @@ import by.erumyantsev.javacourse3.entity.Tetrahedron;
 /**
  * Created by Yauheni_Rumiantsau on 6/15/2017.
  */
-public class TetrahedronAction {
+public class TetrahedronAction implements Observer{
 
     public float triangleSquare(Point pointA, Point pointB, Point pointC){
 

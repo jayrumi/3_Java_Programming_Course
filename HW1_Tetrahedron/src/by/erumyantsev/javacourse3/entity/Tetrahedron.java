@@ -6,12 +6,11 @@ import java.util.Observer;
 /**
  * Created by Yauheni_Rumiantsau on 6/15/2017.
  */
-public class Tetrahedron {
+public class Tetrahedron implements Observable{
 
     //private static final Logger LOGGER = logManager.getLogger();
 
-    //private List<Observer>
-
+    private List<Observer> observersList;
     private Point pointA;
     private Point pointB;
     private Point pointC;
@@ -22,6 +21,7 @@ public class Tetrahedron {
         this.pointB = pointB;
         this.pointC = pointC;
         this.pointD = pointD;
+
     }
 
     public Point getPointA() {
@@ -30,6 +30,7 @@ public class Tetrahedron {
 
     public void setPointA(Point pointA) {
         this.pointA = pointA;
+        notifyObservers();
     }
 
     public Point getPointB() {
@@ -38,6 +39,7 @@ public class Tetrahedron {
 
     public void setPointB(Point pointB) {
         this.pointB = pointB;
+        notifyObservers();
     }
 
     public Point getPointC() {
@@ -46,6 +48,7 @@ public class Tetrahedron {
 
     public void setPointC(Point pointC) {
         this.pointC = pointC;
+        notifyObservers();
     }
 
     public Point getPointD() {
@@ -54,5 +57,22 @@ public class Tetrahedron {
 
     public void setPointD(Point pointD) {
         this.pointD = pointD;
+        notifyObservers();
+    }
+
+    @Override
+    public void registerObserver(Observer o) {
+        observers.add(o);
+    }
+
+    @Override
+    public void removeObserver(Observer o) {
+        observers.remove(o);
+    }
+
+    @Override
+    public void notifyObservers(){
+        for (Observer observer: observersList)
+            observer.update(pointA, pointB, pointC, pointD);
     }
 }
