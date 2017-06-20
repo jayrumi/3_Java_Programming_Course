@@ -1,11 +1,15 @@
 package by.erumyantsev.javacourse3.action;
 import by.erumyantsev.javacourse3.entity.Point;
 import by.erumyantsev.javacourse3.entity.Tetrahedron;
+import by.erumyantsev.javacourse3.observer.Observer;
 
 /**
  * Created by Yauheni_Rumiantsau on 6/15/2017.
  */
 public class TetrahedronAction implements Observer{
+
+    private float surface;
+    private float volume;
 
     public float triangleSquare(Point pointA, Point pointB, Point pointC){
 
@@ -53,5 +57,19 @@ public class TetrahedronAction implements Observer{
                 lengthEdgeAB.getX()*lengthEdgeAC.getZ()*lengthEdgeAD.getY())/6;
 
         return volume;
+    }
+
+    public float getSurface() {
+        return surface;
+    }
+
+    public float getVolume() {
+        return volume;
+    }
+
+    @Override
+    public void update(Tetrahedron tetrahedron) {
+        this.surface = squareSurface(tetrahedron);
+        this.volume = volumeTetrahedron(tetrahedron);
     }
 }

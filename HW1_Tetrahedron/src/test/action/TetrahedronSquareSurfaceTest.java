@@ -14,7 +14,7 @@ public class TetrahedronSquareSurfaceTest {
     @Test
     public void TetrahedronSquareSurfaceCheck(){
 
-        float expectedSquareSurface = (float) 215.636;//67.8678631020050608459188376229 + 39.158253335056965995607995303289 + 62.66779602479251064921232761807 + 45.942205725726752485222256172216; http://math.semestr.ru/line/area_face.php
+        float expectedSquareSurface = (float) 215.636118;//67.8678631020050608459188376229 + 39.158253335056965995607995303289 + 62.66779602479251064921232761807 + 45.942205725726752485222256172216; http://math.semestr.ru/line/area_face.php
 
         Point pointA = new Point((float) 5.02, (float) 10.13, (float) 5.08);
         Point pointB = new Point((float) 0.04, (float) 0.09, (float) 0.01);
@@ -24,7 +24,7 @@ public class TetrahedronSquareSurfaceTest {
         Tetrahedron tetrahedronActual = new Tetrahedron(pointA, pointB, pointC, pointD);
         TetrahedronAction actualVolume = new TetrahedronAction();
 
-        Assert.assertEquals(expectedSquareSurface, (float) Math.round(actualVolume.squareSurface(tetrahedronActual), 3), 0.001);
+        Assert.assertEquals(expectedSquareSurface, actualVolume.squareSurface(tetrahedronActual), 0.000001);
 
     }
 }
