@@ -1,12 +1,15 @@
 package by.erumyantsev.javacourse3.entity;
 
+import by.erumyantsev.javacourse3.observer.Observable;
+import by.erumyantsev.javacourse3.observer.Observer;
+
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Observer;
 
 /**
  * Created by Yauheni_Rumiantsau on 6/15/2017.
  */
-public class Tetrahedron implements Observable{
+public class Tetrahedron implements Observable {
 
     //private static final Logger LOGGER = logManager.getLogger();
 
@@ -21,6 +24,7 @@ public class Tetrahedron implements Observable{
         this.pointB = pointB;
         this.pointC = pointC;
         this.pointD = pointD;
+        //observersList = new LinkedList<>();
 
     }
 
@@ -62,17 +66,17 @@ public class Tetrahedron implements Observable{
 
     @Override
     public void registerObserver(Observer o) {
-        observers.add(o);
+        observersList.add(o);
     }
 
     @Override
     public void removeObserver(Observer o) {
-        observers.remove(o);
+        observersList.remove(o);
     }
 
     @Override
     public void notifyObservers(){
         for (Observer observer: observersList)
-            observer.update(pointA, pointB, pointC, pointD);
+            observer.update(this);
     }
 }

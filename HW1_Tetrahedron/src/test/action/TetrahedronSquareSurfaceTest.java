@@ -1,6 +1,6 @@
 package test.action;
 
-import by.erumyantsev.javacourse3.action.TetrahedronAction;
+import by.erumyantsev.javacourse3.action.TetrahedronCalculating;
 import by.erumyantsev.javacourse3.entity.Point;
 import by.erumyantsev.javacourse3.entity.Tetrahedron;
 import org.junit.Assert;
@@ -8,7 +8,7 @@ import org.junit.Test;
 
 /**
  * Created by Yauheni_Rumiantsau on 6/19/2017.
- */
+ *//* синглтон и фэктори метод, параметризованный тест*/
 public class TetrahedronSquareSurfaceTest {
 
     @Test
@@ -22,7 +22,7 @@ public class TetrahedronSquareSurfaceTest {
         Point pointD = new Point((float) 1.16, (float) 1.02, (float) 7.57);
 
         Tetrahedron tetrahedronActual = new Tetrahedron(pointA, pointB, pointC, pointD);
-        TetrahedronAction actualVolume = new TetrahedronAction();
+        TetrahedronCalculating actualVolume = new TetrahedronCalculating();
 
         Assert.assertEquals(expectedSquareSurface, actualVolume.squareSurface(tetrahedronActual), 0.000001);
 

@@ -6,7 +6,7 @@ import by.erumyantsev.javacourse3.observer.Observer;
 /**
  * Created by Yauheni_Rumiantsau on 6/15/2017.
  */
-public class TetrahedronAction implements Observer{
+public class TetrahedronCalculating implements Observer{
 
     private float surface;
     private float volume;
