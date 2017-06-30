@@ -1,4 +1,4 @@
-package by.erumyantsev.javacourse3.singleton;
+package org.erumyantsev.figure.singleton;
 
 /**
  * Created by Yauheni_Rumiantsau on 6/21/2017.

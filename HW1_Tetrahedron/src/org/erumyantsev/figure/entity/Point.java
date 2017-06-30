@@ -1,4 +1,4 @@
-package by.erumyantsev.javacourse3.entity;
+package org.erumyantsev.figure.entity;
 
 import java.util.Objects;
 
@@ -55,4 +55,6 @@ public class Point {
                 Float.compare(point.y, y) == 0 &&
                 Float.compare(point.z, z) == 0;
     }
+
+
 }

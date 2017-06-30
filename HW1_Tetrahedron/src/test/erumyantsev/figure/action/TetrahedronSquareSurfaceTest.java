@@ -1,8 +1,8 @@
-package test.action;
+package test.erumyantsev.figure.action;
 
-import by.erumyantsev.javacourse3.action.TetrahedronCalculating;
-import by.erumyantsev.javacourse3.entity.Point;
-import by.erumyantsev.javacourse3.entity.Tetrahedron;
+import org.erumyantsev.figure.action.TetrahedronCalculating;
+import org.erumyantsev.figure.entity.Point;
+import org.erumyantsev.figure.entity.Tetrahedron;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -24,7 +24,7 @@ public class TetrahedronSquareSurfaceTest {
         Tetrahedron tetrahedronActual = new Tetrahedron(pointA, pointB, pointC, pointD);
         TetrahedronCalculating actualVolume = new TetrahedronCalculating();
 
-        Assert.assertEquals(expectedSquareSurface, actualVolume.squareSurface(tetrahedronActual), 0.000001);
+        Assert.assertEquals(expectedSquareSurface, actualVolume.squareSurface(tetrahedronActual), 0.0001);
 
     }
 }

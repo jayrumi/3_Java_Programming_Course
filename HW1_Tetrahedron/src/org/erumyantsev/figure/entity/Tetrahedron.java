@@ -1,9 +1,8 @@
-package by.erumyantsev.javacourse3.entity;
+package org.erumyantsev.figure.entity;
 
-import by.erumyantsev.javacourse3.observer.Observable;
-import by.erumyantsev.javacourse3.observer.Observer;
+import org.erumyantsev.figure.observer.Observable;
+import org.erumyantsev.figure.observer.Observer;
 
-import java.util.LinkedList;
 import java.util.List;
 
 /**

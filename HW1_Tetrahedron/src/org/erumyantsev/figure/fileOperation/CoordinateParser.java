@@ -1,22 +1,24 @@
-package by.erumyantsev.javacourse3.fileOperation;
+package org.erumyantsev.figure.fileOperation;
 
-import by.erumyantsev.javacourse3.entity.Point;
+import org.erumyantsev.figure.entity.Point;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 /**
  * Created by Yauheni_Rumiantsau on 6/21/2017.
  */
 public class CoordinateParser {
 
-    public static List<Point> splitCoordinate(){
+    /*public static void main(String[] args){
+        System.out.println("ff");
+        parseCoordinate();
+    }*/
+
+    public static List<Point> parseCoordinate(){
 
         CoordinateReader fromFile = new CoordinateReader();
         List<String> listOfCoordinates = fromFile.readFromFile("src\\coordinates.txt");
-        List<Point> pointList = null;
+        List<Point> pointList = new ArrayList<>();
 
         for (int i=0; i<listOfCoordinates.size(); i++) {
             String items = listOfCoordinates.get(i);
@@ -24,7 +26,7 @@ public class CoordinateParser {
             Point point = new Point(
                     Float.parseFloat(itemCoordinate[0]),
                     Float.parseFloat(itemCoordinate[1]),
-                    Float.parseFloat(itemCoordinate[0]));
+                    Float.parseFloat(itemCoordinate[2]));
 
             pointList.add(point);
         }

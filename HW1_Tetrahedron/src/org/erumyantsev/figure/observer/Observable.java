@@ -1,4 +1,4 @@
-package by.erumyantsev.javacourse3.observer;
+package org.erumyantsev.figure.observer;
 
 public interface Observable {
     void registerObserver(Observer o);

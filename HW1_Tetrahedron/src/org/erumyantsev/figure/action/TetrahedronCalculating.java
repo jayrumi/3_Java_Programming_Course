@@ -1,7 +1,9 @@
-package by.erumyantsev.javacourse3.action;
-import by.erumyantsev.javacourse3.entity.Point;
-import by.erumyantsev.javacourse3.entity.Tetrahedron;
-import by.erumyantsev.javacourse3.observer.Observer;
+package org.erumyantsev.figure.action;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.erumyantsev.figure.entity.Point;
+import org.erumyantsev.figure.entity.Tetrahedron;
+import org.erumyantsev.figure.observer.Observer;
 
 /**
  * Created by Yauheni_Rumiantsau on 6/15/2017.
@@ -10,10 +12,11 @@ public class TetrahedronCalculating implements Observer{
 
     private float surface;
     private float volume;
+    private static final Logger LOG = LogManager.getLogger();
 
     public float triangleSquare(Point pointA, Point pointB, Point pointC){
 
-        PointAction coordinateEdge = new PointAction();
+        LengthEdgeCalculating coordinateEdge = new LengthEdgeCalculating();
 
         Point edgeAB = coordinateEdge.edge(pointA, pointB);
         Point edgeBC = coordinateEdge.edge(pointB, pointC);
@@ -37,12 +40,13 @@ public class TetrahedronCalculating implements Observer{
                 triangleSquare(tetrahedron.getPointA(), tetrahedron.getPointB(), tetrahedron.getPointD()) +
                 triangleSquare(tetrahedron.getPointD(), tetrahedron.getPointB(), tetrahedron.getPointC());
 
+        LOG.info("The surface area of tetrahedron is " + surface);
         return surface;
     }
 
     public float volumeTetrahedron(Tetrahedron tetrahedron){
 
-        PointAction coordinateEdge = new PointAction();
+        LengthEdgeCalculating coordinateEdge = new LengthEdgeCalculating();
 
         Point lengthEdgeAB = coordinateEdge.edge(tetrahedron.getPointA(), tetrahedron.getPointB());
         Point lengthEdgeAC = coordinateEdge.edge(tetrahedron.getPointA(), tetrahedron.getPointC());
@@ -54,8 +58,9 @@ public class TetrahedronCalculating implements Observer{
                 lengthEdgeAB.getZ()*lengthEdgeAC.getX()*lengthEdgeAD.getY() -
                 lengthEdgeAB.getZ()*lengthEdgeAC.getY()*lengthEdgeAD.getX() -
                 lengthEdgeAB.getY()*lengthEdgeAC.getZ()*lengthEdgeAD.getX() -
-                lengthEdgeAB.getX()*lengthEdgeAC.getZ()*lengthEdgeAD.getY())/6;
+                lengthEdgeAB.getX()*lengthEdgeAC.getZ()*lengthEdgeAD.getY())/6f;
 
+        LOG.info("The volume of tetrahedron is " + volume);
         return volume;
     }
 
