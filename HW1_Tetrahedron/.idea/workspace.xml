@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ff9c070-d1ec-417d-a248-c147fae992b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/TetrahedronCreator.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log4j2.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/fileOperation/CoordinateReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/fileOperation/PointCreator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/coordinates.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/action/PointAction.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/action/LengthEdgeCalculating.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/action/TetrahedronCalculating.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/action/TetrahedronCalculating.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/entity/Point.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/entity/Point.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/entity/Tetrahedron.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/entity/Tetrahedron.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/fileOperation/CoordinateParser.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/observer/Observable.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/observer/Observable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/observer/Observer.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/observer/Observer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/singleton/SingletonTetrahedron.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/singleton/SingletonTetrahedron.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/action/PointActionTest.java" afterPath="$PROJECT_DIR$/src/test/erumyantsev/figure/action/LengthEdgeCalculatingTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/action/TetrahedronSquareSurfaceTest.java" afterPath="$PROJECT_DIR$/src/test/erumyantsev/figure/action/TetrahedronSquareSurfaceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/action/TetrahedronVolumeTest.java" afterPath="$PROJECT_DIR$/src/test/erumyantsev/figure/action/TetrahedronVolumeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="5ff9c070-d1ec-417d-a248-c147fae992b7" name="Default" comment="Many different changes.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-07/log-2017-07-01-01.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-07/log-2017-07-01-17.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-07/log-2017-07-01-21.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/coordinates.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/exception/WrongDelimiterException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/erumyantsev/figure/fileOperation/CoordinateParserTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/coordinates1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/log4j2.fxml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HW1_Tetrahedron.iml" afterPath="$PROJECT_DIR$/HW1_Tetrahedron.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/log.txt" afterPath="$PROJECT_DIR$/logs/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/erumyantsev/figure/entity/Point.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/entity/Point.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateParser.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateReader.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/TetrahedronCreator.java" afterPath="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/TetrahedronCreator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,14 +28,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LengthEdgeCalculating.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/action/LengthEdgeCalculating.java">
+      <file leaf-file-name="CoordinateReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="32" />
               <folding>
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoordinateParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,7 +55,7 @@
       <file leaf-file-name="LengthEdgeCalculatingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/action/LengthEdgeCalculatingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="340">
               <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,32 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/entity/Point.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoordinateReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TetrahedronSquareSurfaceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TetrahedronSquareSurfaceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/action/TetrahedronSquareSurfaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="323">
               <caret line="26" column="103" lean-forward="false" selection-start-line="26" selection-start-column="103" selection-end-line="26" selection-end-column="103" />
               <folding />
             </state>
@@ -95,11 +77,70 @@
       <file leaf-file-name="TetrahedronVolumeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/action/TetrahedronVolumeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="76">
               <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WrongDelimiterException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/exception/WrongDelimiterException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoordinateParserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/fileOperation/CoordinateParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log-2017-07-01-01.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/2017-07/log-2017-07-01-01.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="86" lean-forward="false" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coordinates.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/coordinates.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,11 +189,16 @@
         <option value="$PROJECT_DIR$/src/by/erumyantsev/javacourse3/fileOperation/CoordinateReader.java" />
         <option value="$PROJECT_DIR$/src/test/erumyantsev/figure/fileOperation/CoordinateReaderTest.java" />
         <option value="$PROJECT_DIR$/src/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/coordinates.txt" />
         <option value="$PROJECT_DIR$/src/test/erumyantsev/figure/action/TetrahedronSquareSurfaceTest.java" />
-        <option value="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateReader.java" />
         <option value="$PROJECT_DIR$/src/org/erumyantsev/figure/action/TetrahedronCalculating.java" />
         <option value="$PROJECT_DIR$/src/test/erumyantsev/figure/action/TetrahedronVolumeTest.java" />
+        <option value="$PROJECT_DIR$/src/org/erumyantsev/figure/entity/Point.java" />
+        <option value="$PROJECT_DIR$/src/org/erumyantsev/figure/exception/WrongDelimiterException.java" />
+        <option value="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/TetrahedronCreator.java" />
+        <option value="$PROJECT_DIR$/src/test/erumyantsev/figure/fileOperation/CoordinateParserTest.java" />
+        <option value="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateReader.java" />
+        <option value="$PROJECT_DIR$/src/coordinates.txt" />
+        <option value="$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateParser.java" />
       </list>
     </option>
   </component>
@@ -397,59 +443,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TetrahedronVolumeTest.tetrahedronVolumeCheck">
-    <configuration default="false" name="LengthEdgeCalculatingTest.edgeCompare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.action.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="HW1_Tetrahedron" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.action" />
-      <option name="MAIN_CLASS_NAME" value="test.action.LengthEdgeCalculatingTest" />
-      <option name="METHOD_NAME" value="edgeCompare" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CoordinateReaderTest.testCoordinateReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.erumyantsev.figure.fileOperation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="HW1_Tetrahedron" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.erumyantsev.figure.fileOperation" />
-      <option name="MAIN_CLASS_NAME" value="test.erumyantsev.figure.fileOperation.CoordinateReaderTest" />
-      <option name="METHOD_NAME" value="testCoordinateReader" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CoordinateParserTest.testCoordinateParser">
     <configuration default="false" name="CoordinateReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -516,6 +510,58 @@
       <option name="MAIN_CLASS_NAME" value="test.erumyantsev.figure.action.TetrahedronVolumeTest" />
       <option name="METHOD_NAME" value="tetrahedronVolumeCheck" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CoordinateParserTest.testCoordinateParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.erumyantsev.figure.fileOperation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HW1_Tetrahedron" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.erumyantsev.figure.fileOperation" />
+      <option name="MAIN_CLASS_NAME" value="test.erumyantsev.figure.fileOperation.CoordinateParserTest" />
+      <option name="METHOD_NAME" value="testCoordinateParser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CoordinateParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.erumyantsev.figure.fileOperation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HW1_Tetrahedron" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.erumyantsev.figure.fileOperation" />
+      <option name="MAIN_CLASS_NAME" value="test.erumyantsev.figure.fileOperation.CoordinateParserTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -733,19 +779,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LengthEdgeCalculatingTest.edgeCompare" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CoordinateReaderTest.testCoordinateReader" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CoordinateReaderTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TetrahedronSquareSurfaceTest.TetrahedronSquareSurfaceCheck" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TetrahedronVolumeTest.tetrahedronVolumeCheck" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CoordinateReaderTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TetrahedronSquareSurfaceTest.TetrahedronSquareSurfaceCheck" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TetrahedronVolumeTest.tetrahedronVolumeCheck" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CoordinateParserTest.testCoordinateParser" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CoordinateParserTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TetrahedronVolumeTest.tetrahedronVolumeCheck" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TetrahedronSquareSurfaceTest.TetrahedronSquareSurfaceCheck" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CoordinateReaderTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CoordinateReaderTest.testCoordinateReader" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LengthEdgeCalculatingTest.edgeCompare" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CoordinateParserTest.testCoordinateParser" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CoordinateParserTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TetrahedronVolumeTest.tetrahedronVolumeCheck" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TetrahedronSquareSurfaceTest.TetrahedronSquareSurfaceCheck" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CoordinateReaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -830,39 +876,46 @@
       <option name="project" value="LOCAL" />
       <updated>1498517962023</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Many different changes.">
+      <created>1498860505454</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1498860505454</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CoordinateReaderTest - 2017.07.01 at 00h 31m 18s.xml">
-      <configuration name="CoordinateReaderTest" configurationId="JUnit" />
+    <history-entry file="CoordinateParserTest - 2017.07.01 at 21h 18m 05s.xml">
+      <configuration name="CoordinateParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CoordinateReaderTest - 2017.07.01 at 00h 32m 49s.xml">
-      <configuration name="CoordinateReaderTest" configurationId="JUnit" />
+    <history-entry file="CoordinateParserTest - 2017.07.01 at 21h 18m 30s.xml">
+      <configuration name="CoordinateParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CoordinateReaderTest - 2017.07.01 at 00h 36m 40s.xml">
-      <configuration name="CoordinateReaderTest" configurationId="JUnit" />
+    <history-entry file="CoordinateParserTest - 2017.07.01 at 21h 20m 32s.xml">
+      <configuration name="CoordinateParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrahedronSquareSurfaceTest_TetrahedronSquareSurfaceCheck - 2017.07.01 at 00h 47m 30s.xml">
-      <configuration name="TetrahedronSquareSurfaceTest.TetrahedronSquareSurfaceCheck" configurationId="JUnit" />
+    <history-entry file="CoordinateParserTest - 2017.07.01 at 21h 29m 27s.xml">
+      <configuration name="CoordinateParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrahedronSquareSurfaceTest_TetrahedronSquareSurfaceCheck - 2017.07.01 at 00h 48m 06s.xml">
-      <configuration name="TetrahedronSquareSurfaceTest.TetrahedronSquareSurfaceCheck" configurationId="JUnit" />
+    <history-entry file="CoordinateParserTest - 2017.07.01 at 21h 30m 00s.xml">
+      <configuration name="CoordinateParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrahedronVolumeTest_tetrahedronVolumeCheck - 2017.07.01 at 01h 00m 57s.xml">
-      <configuration name="TetrahedronVolumeTest.tetrahedronVolumeCheck" configurationId="JUnit" />
+    <history-entry file="CoordinateParserTest - 2017.07.01 at 21h 31m 31s.xml">
+      <configuration name="CoordinateParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrahedronVolumeTest_tetrahedronVolumeCheck - 2017.07.01 at 01h 02m 32s.xml">
-      <configuration name="TetrahedronVolumeTest.tetrahedronVolumeCheck" configurationId="JUnit" />
+    <history-entry file="CoordinateParserTest_testCoordinateParser - 2017.07.01 at 21h 12m 51s.xml">
+      <configuration name="CoordinateParserTest.testCoordinateParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrahedronVolumeTest_tetrahedronVolumeCheck - 2017.07.01 at 01h 03m 22s.xml">
-      <configuration name="TetrahedronVolumeTest.tetrahedronVolumeCheck" configurationId="JUnit" />
+    <history-entry file="CoordinateParserTest_testCoordinateParser - 2017.07.01 at 21h 14m 57s.xml">
+      <configuration name="CoordinateParserTest.testCoordinateParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrahedronVolumeTest_tetrahedronVolumeCheck - 2017.07.01 at 01h 04m 11s.xml">
-      <configuration name="TetrahedronVolumeTest.tetrahedronVolumeCheck" configurationId="JUnit" />
+    <history-entry file="CoordinateParserTest_testCoordinateParser - 2017.07.01 at 21h 53m 16s.xml">
+      <configuration name="CoordinateParserTest.testCoordinateParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TetrahedronVolumeTest_tetrahedronVolumeCheck - 2017.07.01 at 01h 04m 29s.xml">
-      <configuration name="TetrahedronVolumeTest.tetrahedronVolumeCheck" configurationId="JUnit" />
+    <history-entry file="CoordinateParserTest_testCoordinateParser - 2017.07.01 at 22h 00m 08s.xml">
+      <configuration name="CoordinateParserTest.testCoordinateParser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -875,12 +928,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.42020497" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.4238653" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33911672" sideWeight="0.47657394" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.579795" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5761347" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26340693" sideWeight="0.48828697" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26340693" sideWeight="0.48535872" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -911,7 +964,8 @@
     <MESSAGE value="Added some updates and corrections" />
     <MESSAGE value="Added singleton and some corrections." />
     <MESSAGE value="Added classes for operations with files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added classes for operations with files." />
+    <MESSAGE value="Many different changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Many different changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -927,25 +981,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/entity/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/erumyantsev/javacourse3/fileOperation/Remarks.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -961,7 +996,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -979,8 +1014,8 @@
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1017,7 +1052,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1122#1123#0" expanded="false" />
+            <element signature="e#1178#1179#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,8 +1102,8 @@
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1102,7 +1140,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1122#1123#0" expanded="false" />
+            <element signature="e#1178#1179#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,8 +1178,8 @@
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1182,8 +1223,8 @@
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1211,8 +1252,8 @@
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1283,14 +1324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/entity/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log4j2.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1300,83 +1333,6 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/action/LengthEdgeCalculating.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/TetrahedronCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="79" lean-forward="false" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/coordinates.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/fileOperation/CoordinateReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/action/LengthEdgeCalculatingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/log.txt">
@@ -1395,20 +1351,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/action/TetrahedronVolumeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/action/TetrahedronCalculating.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="493">
+          <caret line="60" column="79" lean-forward="false" selection-start-line="60" selection-start-column="79" selection-end-line="60" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/action/LengthEdgeCalculating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/entity/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="60" column="47" lean-forward="false" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+          <folding>
+            <element signature="e#1122#1123#0" expanded="false" />
+            <element signature="e#1178#1179#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/TetrahedronCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="75" lean-forward="true" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/fileOperation/CoordinateReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="84" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/action/TetrahedronCalculating.java">
+    <entry file="file://$PROJECT_DIR$/src/coordinates.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="60" column="79" lean-forward="false" selection-start-line="60" selection-start-column="79" selection-end-line="60" selection-end-column="79" />
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/exception/WrongDelimiterException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/erumyantsev/figure/fileOperation/CoordinateParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/action/LengthEdgeCalculatingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1417,8 +1456,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/action/TetrahedronSquareSurfaceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="323">
           <caret line="26" column="103" lean-forward="false" selection-start-line="26" selection-start-column="103" selection-end-line="26" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/action/TetrahedronVolumeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/erumyantsev/figure/fileOperation/CoordinateParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2017-07/log-2017-07-01-01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="86" lean-forward="false" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="86" />
           <folding />
         </state>
       </provider>

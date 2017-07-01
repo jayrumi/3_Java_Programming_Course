@@ -1,0 +1,18 @@
+2017-07-01 21:12:51 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Opening file src\coordinates.txt
+2017-07-01 21:12:51 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Reading from file has been completed successfully.
+2017-07-01 21:14:56 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Opening file src\coordinates.txt
+2017-07-01 21:14:56 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Reading from file has been completed successfully.
+2017-07-01 21:18:04 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Opening file src\coordinates.txt
+2017-07-01 21:18:04 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Reading from file has been completed successfully.
+2017-07-01 21:18:29 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Opening file src\coordinates.txt
+2017-07-01 21:18:29 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Reading from file has been completed successfully.
+2017-07-01 21:20:31 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Opening file src\coordinates.txt
+2017-07-01 21:20:31 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Reading from file has been completed successfully.
+2017-07-01 21:29:26 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Opening file src\coordinates.txt
+2017-07-01 21:29:26 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Reading from file has been completed successfully.
+2017-07-01 21:29:59 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Opening file src\coordinates.txt
+2017-07-01 21:29:59 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Reading from file has been completed successfully.
+2017-07-01 21:31:30 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Opening file src\coordinates.txt
+2017-07-01 21:31:30 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Reading from file has been completed successfully.
+2017-07-01 21:53:16 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Opening file src\coordinates.txt
+2017-07-01 21:53:16 [main] INFO  org.erumyantsev.figure.fileOperation.CoordinateReader - Reading from file has been completed successfully.

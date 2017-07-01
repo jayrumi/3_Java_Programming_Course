@@ -26,7 +26,6 @@ public class CoordinateReader {
         try {
 
             coordinatesFromFile = Files.readAllLines(Paths.get(fileName), StandardCharsets.UTF_8);
-            LOG.info("Reading from file has been completed successfully.");
 
         } catch (NoSuchFileException e) {
 
@@ -43,6 +42,7 @@ public class CoordinateReader {
 
         }// finaly??? how to use?
 
+        LOG.info("Reading from file has been completed successfully.");
         return coordinatesFromFile;
     }
 

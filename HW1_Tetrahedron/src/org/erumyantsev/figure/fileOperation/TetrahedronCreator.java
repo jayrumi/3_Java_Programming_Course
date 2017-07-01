@@ -2,6 +2,7 @@ package org.erumyantsev.figure.fileOperation;
 
 import org.erumyantsev.figure.entity.Point;
 import org.erumyantsev.figure.entity.Tetrahedron;
+import org.erumyantsev.figure.exception.WrongDelimiterException;
 
 import java.util.List;
 
@@ -10,10 +11,10 @@ import java.util.List;
  */
 public class TetrahedronCreator {
 
-    public static Tetrahedron tetrahedronCreator(){
+    public static Tetrahedron tetrahedronCreator(String fileName) throws WrongDelimiterException {
 
         CoordinateParser coordinateParser = new CoordinateParser();
-        List<Point> pointList = coordinateParser.parseCoordinate();
+        List<Point> pointList = coordinateParser.parseCoordinate(fileName);
 
         return new Tetrahedron(
                 pointList.get(0),

@@ -56,5 +56,8 @@ public class Point {
                 Float.compare(point.z, z) == 0;
     }
 
-
+    @Override
+    public String toString() {
+        return "(" + x + "," + y + "," + z + ")";
+    }
 }

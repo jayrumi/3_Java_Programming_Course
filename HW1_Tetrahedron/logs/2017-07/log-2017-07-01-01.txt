@@ -1,0 +1,5 @@
+2017-07-01 01:00:57 [main] INFO  org.erumyantsev.figure.action.TetrahedronCalculating - The volume of tetrahedron is 149.02321
+2017-07-01 01:02:32 [main] INFO  org.erumyantsev.figure.action.TetrahedronCalculating - The volume of tetrahedron is 149.02321
+2017-07-01 01:03:21 [main] INFO  org.erumyantsev.figure.action.TetrahedronCalculating - The volume of tetrahedron is 149.02321
+2017-07-01 01:04:10 [main] INFO  org.erumyantsev.figure.action.TetrahedronCalculating - The volume of tetrahedron is 149.02321
+2017-07-01 01:04:29 [main] INFO  org.erumyantsev.figure.action.TetrahedronCalculating - The volume of tetrahedron is 149.02321
