@@ -18,7 +18,7 @@ public class CoordinateParserTest {
         CoordinateParser testParser = new CoordinateParser();
         List<Point> testPointList = testParser.parseCoordinate("src\\coordinates.txt");
         System.out.print(testPointList);
-
+        // need to add Assert
     }
 
 }

@@ -46,9 +46,11 @@ public class CoordinateParser {
                 pointList.add(point);
             } catch(ArrayIndexOutOfBoundsException e){
                 LOG.error("ERROR. Several coordinates are missing. " + e);
+                pointList = null;
             } catch (NumberFormatException e){
                 LOG.error("ERROR. Wrong number. " + e);
-            } // finaly???
+                pointList = null;
+            }
         }
 
         return pointList;

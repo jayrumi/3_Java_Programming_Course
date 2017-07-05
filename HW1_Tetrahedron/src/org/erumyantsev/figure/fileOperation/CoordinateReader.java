@@ -31,16 +31,12 @@ public class CoordinateReader {
 
             LOG.error("NoSuchFileException " + e);
 
-        } catch(NullPointerException e) {// not catch this exception
-
-            LOG.error("NullPointerException " + e);
-
         } catch (IOException e) {
 
             LOG.error("Some problems with file reading. ");
             e.printStackTrace();
 
-        }// finaly??? how to use?
+        }
 
         LOG.info("Reading from file has been completed successfully.");
         return coordinatesFromFile;
