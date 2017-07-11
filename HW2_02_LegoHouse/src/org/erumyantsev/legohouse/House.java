@@ -28,7 +28,7 @@ public class House {
     }
 
     public void newPart(Bricks legoBrick, int brickQuantity){
-        for(int i = 0; i < brickQuantity; i++){
+        for(int i = 0; i < brickQuantity; i++){//цену в отдельную переменную, енам в массив
             bricksList.add(legoBrick);
             //System.out.println(bricksList);
         }

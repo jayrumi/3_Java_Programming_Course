@@ -5,15 +5,21 @@ package org.erumyantsev.legohouse;
  */
 public enum Bricks {
 
-    ROOF(5), FLOOR(3), WALL_INNER(1), WALL_OUTER(3), MIDFLOOR(3), DOOR(1), WINDOW(0.5), STAIRWAYS(3);
+    ROOF(5, "Roof"), FLOOR(3, "Floor"), WALL_INNER(1, "Wall inner"), WALL_OUTER(3, "Wall outer"), MIDFLOOR(3, "Midfloor"), DOOR(1, "Door"), WINDOW(0.5f, "Window"), STAIRWAYS(3, "Stairways");
 
-    private double brick;
+    private float price;
+    private String brickName;
 
-    Bricks(double brick) {
-        this.brick = brick;
+    Bricks(float price, String brickName) {
+        this.price = price;
+        this.brickName = brickName;
     }
 
-    public double getBrick() {
-        return brick;
+    public float getPrice() {
+        return price;
+    }
+
+    public String getBrickName() {
+        return brickName;
     }
 }

@@ -26,6 +26,7 @@ public class PrintInvoice {
         String printHouseInfo1 = house1.houseInfo();
         System.out.println(printHouseInfo1);
 
+
         //ArrayList<Bricks> bricksList = new ArrayList<>();
         house1.newPart(ROOF, 10);
         house1.newPart(FLOOR, 5);
