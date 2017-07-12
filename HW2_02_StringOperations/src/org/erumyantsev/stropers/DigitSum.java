@@ -7,7 +7,9 @@ import java.util.List;
  * Created by Yauheni_Rumiantsau on 7/8/2017.
  */
 public class DigitSum {
-
+    // Task: 21. В заданном тексте найти сумму всех встречающихся цифр.
+    // Подсчёт ведётся только интовых значений, с дробными ничего не получится.
+    // Добавление чтения из файла оставил на потом, но это "потом" так и не наступило :(
     public static void main(String[] args){
 
         Integer checker;
